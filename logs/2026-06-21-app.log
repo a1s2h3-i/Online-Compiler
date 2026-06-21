@@ -1,0 +1,25 @@
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:50:21","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:50:21","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:50:53","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:50:53","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:51:47","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:51:47","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:54:23","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:54:23","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:56:01","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:56:01","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 16:56:37","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 16:56:37","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 17:03:08","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 17:03:08","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 17:04:00","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 17:04:00","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-21-2026 17:04:01","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 17:06:06","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 17:06:06","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-21-2026 17:06:06","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"warn","message":"mOngoDb disconnected","timestamp":"06-21-2026 17:06:18","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-21-2026 17:06:25","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-21-2026 17:06:25","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-21-2026 17:06:25","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"warn","message":"mOngoDb disconnected","timestamp":"06-21-2026 17:06:27","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
