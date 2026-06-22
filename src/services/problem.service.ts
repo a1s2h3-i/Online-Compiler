@@ -1,14 +1,15 @@
 import { IProblem } from "../models/problem.model";
-import { CreateProblemDto,UpdateProblemDto } from "../dtos/problem.dto";
+
+import { CreateProblemDto,UpdateProblemDto } from "../validators/problem.validator";
 import { IProblemRepository } from "../repositories/problem.repository";
 import { BadRequestError, NotFoundError } from "../utils/errors/app.error";
-import { sanitize, sanitizeMarkdown } from "../utils/markdown.sanitizer";
+import {  sanitizeMarkdown } from "../utils/markdown.sanitizer";
 export interface IProblemService{
     createProblem(problem:CreateProblemDto):Promise<IProblem>
     getProblemById(id:string):Promise<IProblem|null>;
     getAllProblems():Promise<{problems:IProblem[],total:number}>;
-    updateProblem(id:String,updateData:UpdateProblemDto):Promise<IProblem|null>;
-    deleteProblem(id:String):Promise<boolean>;
+    updateProblem(id:string,updateData:UpdateProblemDto):Promise<IProblem|null>;
+    deleteProblem(id:string):Promise<boolean>;
     findByDifficulty(difficulty:"easy"|"medium"|"hard"):Promise<IProblem[]>;
     searchProblems(query:string):Promise<IProblem[]>
 
@@ -57,7 +58,7 @@ export class ProblemService implements IProblemService{
         return await this.problemRepository.updateProblem(id,sanitizePayload);
     }
 
-    async deleteProblem(id: String): Promise<boolean> {
+    async deleteProblem(id: string): Promise<boolean> {
         const result=await this.problemRepository.deleteProblem(id);
         if(!result){
             throw new NotFoundError("Problem not found");

@@ -55,3 +55,18 @@ export const validateQueryParams = (schema: ZodObject) => {
     }
 }
 
+export const validateRequestParams=(schema:ZodObject)=>{
+    return async (req:Request,res:Response,next:NextFunction)=>{
+        try{
+            await schema.parseAsync(req.params);
+            next();
+        }
+        catch(error){
+            res.status(400).json({
+                message:"Invalid request params",
+                success:false,
+                error:error
+            })
+        }
+    }
+}

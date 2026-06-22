@@ -5,8 +5,8 @@ export interface IProblemRepository{
     createProblem(problem:Partial<IProblem>):Promise<IProblem>
     getProblemById(id:string):Promise<IProblem|null>;
     getAllProblems():Promise<{problems:IProblem[],total:number}>;
-    updateProblem(id:String,updateData:Partial<IProblem>):Promise<IProblem|null>;
-    deleteProblem(id:String):Promise<boolean>;
+    updateProblem(id:string,updateData:Partial<IProblem>):Promise<IProblem|null>;
+    deleteProblem(id:string):Promise<boolean>;
     findByDifficulty(difficulty:"easy"|"medium"|"hard"):Promise<IProblem[]>;
     searchProblems(query:string):Promise<IProblem[]>
 }
@@ -27,7 +27,7 @@ export class ProblemRepository implements IProblemRepository{
         return {problems,total};
     }
 
-    async updateProblem(id: String, updateData: Partial<IProblem>): Promise<IProblem | null> {
+    async updateProblem(id: string, updateData: Partial<IProblem>): Promise<IProblem | null> {
         return await Problem.findByIdAndUpdate(id,updateData,{new:true});
     }
     async deleteProblem(id:string):Promise<boolean>{

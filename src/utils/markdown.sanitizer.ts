@@ -1,5 +1,5 @@
 import logger from "../config/logger.config";
-import {marked} from "marked"
+import {marked} from "marked";
 import sanitizeHtml from "sanitize-html"
 import TurndownService from "turndown";
 export async function sanitizeMarkdown(markdown:string):Promise<string>{
