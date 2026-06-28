@@ -1,0 +1,4 @@
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-28-2026 16:52:04","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-28-2026 16:52:04","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-28-2026 16:52:04","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"warn","message":"mOngoDb disconnected","timestamp":"06-28-2026 16:52:35","correlationId":"unknown-error-while-creating-correlation-id","data":{}}

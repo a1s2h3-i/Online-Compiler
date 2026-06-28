@@ -12,3 +12,15 @@
 {"level":"info","message":"Validating request body","timestamp":"06-22-2026 20:22:07","correlationId":"0b5416b9-e417-47f5-a61d-56d3f5cfebe7","data":{}}
 {"level":"info","message":"Request body is valid","timestamp":"06-22-2026 20:22:07","correlationId":"0b5416b9-e417-47f5-a61d-56d3f5cfebe7","data":{}}
 {"level":"warn","message":"mOngoDb disconnected","timestamp":"06-22-2026 20:22:19","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-22-2026 20:22:33","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-22-2026 20:22:33","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-22-2026 20:22:33","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"06-22-2026 20:22:44","correlationId":"506e0bd5-31b1-4213-931a-d22b7537c618","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"06-22-2026 20:22:44","correlationId":"506e0bd5-31b1-4213-931a-d22b7537c618","data":{}}
+{"level":"info","message":"Validating request body","timestamp":"06-22-2026 20:23:12","correlationId":"5eff73c3-0d52-4e26-9199-861d18b41234","data":{}}
+{"level":"info","message":"Request body is valid","timestamp":"06-22-2026 20:23:12","correlationId":"5eff73c3-0d52-4e26-9199-861d18b41234","data":{}}
+{"level":"warn","message":"mOngoDb disconnected","timestamp":"06-22-2026 20:46:12","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-22-2026 20:46:24","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-22-2026 20:46:24","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Connected to mongo successfully","timestamp":"06-22-2026 20:46:24","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"warn","message":"mOngoDb disconnected","timestamp":"06-22-2026 22:31:38","correlationId":"unknown-error-while-creating-correlation-id","data":{}}

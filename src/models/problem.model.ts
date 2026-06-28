@@ -57,10 +57,23 @@ const problemSchema=new mongoose.Schema<IProblem>({
         type:String,
         trim:true
     },
-    testcases:[testSchema]
+    testcases:[testSchema],
+    
 
 },{
     timestamps:true,
+    toJSON:{
+        transform:(_,record)=>{
+           const obj = record as any;
+
+    delete obj.__v;
+    obj.id = obj._id;
+    delete obj._id;
+
+            
+        }
+
+    }
 }
 
 )
